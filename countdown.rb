@@ -3,12 +3,21 @@
 #each iteration should be "#{number} SECOND(S)!"
 #method should return "HAPPY NEW YEAR!"
 
+# integer = 10 
+# def countdown(integer)
+#   while integer < 11 
+#   puts "#{integer} SECOND(S)!"
+#   integer -= 1 
+#   puts "HAPPY NEW YEAR!"
+# end
+# end
+# countdown(integer)
 integer = 10 
 def countdown(integer)
-  while integer < 11 
+  while integer > 0  
   puts "#{integer} SECOND(S)!"
   integer -= 1 
-  puts "HAPPY NEW YEAR!"
 end
+puts "HAPPY NEW YEAR!"
 end
 countdown(integer)
