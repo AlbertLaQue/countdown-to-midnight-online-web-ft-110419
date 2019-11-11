@@ -25,11 +25,16 @@ return "HAPPY NEW YEAR!"
 end
 countdown(integer)
 
+# Same condition as the last method 
 # Make loop pause for one second each trip around. 
 
 integer = 10
 
 def countdown_with_sleep(integer)
+  while integer > 0 
+  puts "#{integer} SECOND(S)!"
+  integer -= 1 
+  sleep(1)
   
   
   
